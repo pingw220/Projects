@@ -175,6 +175,38 @@
     justify-content:center;
     align-items:center;
 }
+.section3{
+    display:flex;
+    flex:none;
+    width:45%;
+    height:400px;
+    margin:10px;
+    background-color: #637A9F;
+    justify-content:center;
+    align-items:center;
+}
+.section3 a{
+    width:90%;
+    height:90%;
+    justify-content:center;
+    align-items:center;
+}
+.section4{
+    display:flex;
+    flex:none;
+    width:45%;
+    height:400px;
+    margin:10px;
+    background-color: #637A9F;
+    justify-content:center;
+    align-items:center;
+}
+.section4 a{
+    width:90%;
+    height:90%;
+    justify-content:center;
+    align-items:center;
+}
 .t1{
     font-size:20px;
     font-weight:bold;
