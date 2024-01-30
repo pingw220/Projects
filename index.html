@@ -1,18 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="utf-8">
-        <title>My Profile</title>
+        <title>PW</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <a href="https://pingw220.github.io/home/">
-            Home
-        </a>
-        <a href="https://pingw220.github.io/Drum-Kit-Project/">
-            Project 1
-        </a>
-        <div>
-            Hi! My name is Peter.
+        <div class="headline">
+            <div class="title">Ping Wang</div>
+            <div class="list1">
+                <div class="item1">
+                    <a href="https://pingw220.github.io/about/">
+                        <div>about</div>
+                    </a>
+                </div>
+                <div class="item2">
+                    <a href="https://pingw220.github.io/Projects/">
+                        <div>Projects</div>
+                    </a>
+                </div>
+                <div class="item3">
+                    <a href="https://pingw220.github.io/Cello/">
+                        <div>Cello</div>
+                    </a>
+                </div>
+            </div>
+            <div class="listpicture">
+                <img src="list.png" width="40" height="40" onmousedown="down3(this);"/>
+            </div>
+            <div class="list2">
+                <div class="it0">
+                    <img src="x.png" width="40" height="40" onmousedown="down4(this);"/>
+                </div>
+                <hr/>
+                <div class="it1">
+                    <div>Item1</div>
+                </div>
+                <hr/>
+                <div class="it2">
+                    <div>Item2</div>
+                </div>
+                <hr/>
+                <div class="it3">
+                    <div>Item3</div>
+                </div>
+                <hr/>
+                <div class="it4">
+                    <div>Item4</div>
+                </div>
+            </div>
         </div>
+        <div class="welcome1" onmousedown="down1(this);">
+            <div class="text">Projects</div>
+        </div>
+        <div class="subject">
+            <div class="menu">Showcase</div>
+        </div>
+        <div class="section">
+            <div class="section1">
+                <a href="https://pingw220.github.io/home/">
+                    <img src = "resource/personal_website.png"/>
+                </a>
+            </div>
+            <div class="section2">
+                <a href="https://pingw220.github.io/Drum-Kit-Project/">
+                    <img src = "resource/drum_project.png"/>
+                </a>
+            </div>
+        </div>
+        <script src="index.js" charset="utf-8"></script>
     </body>
 </html>
