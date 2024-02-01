@@ -8,12 +8,6 @@
     align-items: center;
     font-family: Georgia, serif;
 }
-.home{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Georgia, serif;
-    margin-left:10px;
-}
 .name{
     font-size: 30px;
     font-weight: bold;
@@ -24,6 +18,13 @@
     display: flex;
     justify-content: flex-end; /*go to the left*/
     flex: auto;
+}
+.home{
+    width: 10%;
+    text-align:center;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    color: black;
 }
 .about{
     width: 10%;
