@@ -237,6 +237,9 @@
     color: black;
     margin-bottom: 20px;
 }
+.subinfo :hover {
+    color: white;
+}
 .section2{
     display:flex;
     flex:none;
